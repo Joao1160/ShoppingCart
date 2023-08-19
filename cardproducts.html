@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+
+    <title>Shopping Card | Card Products Page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-600.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a class="head-logo" href="index.html">Shopping Card</a>
+
+          <nav>
+            <ul id="links">
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+            </ul>
+            <ul id="user-info">
+              <li><a href="profile.html" id="user"></a></li>
+              <li><a href="favorate.html" >Favorate</a></li>
+              <li><a href="myCards.html" >My Products</a></li>
+              <li><a href="#" id="logout">Log Out</a></li>
+              <li>
+                <i class=" fa-solid fa-cart-shopping" onclick="apearitems()"></i>
+                <span class="badge"></span>
+
+                <div class="cards-products">
+                  <div class="card-items">
+
+                  </div>
+                  <a href="cardproducts.html" id="beforeView">View all products</a>
+                </div>
+
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="products">
+          
+          
+        </div>
+        <div class="noProducts">
+          
+         <h2>No Product Yet ...</h2>
+        </div>
+      </div>
+      <a href="createProduct.html">
+        <i class="fa fa-plus create-product-icon" ></i>
+      </a>
+    </section>
+
+    <script src="js/user.js"></script>
+    <script src="js/checkbadge.js"></script>
+    <script src="js/saveCardDetails.js"></script>
+    <script src="js/carts.js"></script>
+  </body>
+</html>

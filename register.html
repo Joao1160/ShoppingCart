@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Shopping Card | Register Page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-600.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a class="head-logo" href="index.html">Shopping Card</a>
+
+          <nav>
+            <ul id="links">
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="from-container">
+      <section class="section-form">
+        <h2>Register User</h2>
+        <form novalidate>
+          <input id="username" type="text" placeholder="Enter Username ... " />
+          <input id="email" type="email" placeholder="Enter Email ... " />
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter Password ... "
+          />
+
+          <input id="submit" type="submit" value="Sign Up" />
+          <p>if you have an accont <a href="login.html">Log In</a></p>
+
+          <div id="error"></div>
+        </form>
+      </section>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>
