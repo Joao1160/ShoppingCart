@@ -238,7 +238,7 @@
     display: block;
     cursor: pointer;
     margin-left: auto;
-    margin: 5px;
+/*     margin: 5px; */
   }
   .product-item .add-to-card:hover,
   .deleteProduct:hover {
